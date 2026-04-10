@@ -1,10 +1,18 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { hydrateRoot, createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
+const container = document.getElementById('root')
+const app = (
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )
+
+// Use hydrateRoot when server-rendered HTML is present, createRoot otherwise
+if (container.innerHTML.trim()) {
+  hydrateRoot(container, app)
+} else {
+  createRoot(container).render(app)
+}

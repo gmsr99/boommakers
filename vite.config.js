@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react()],
 
   resolve: {
@@ -23,7 +23,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 600,
 
     rollupOptions: {
-      output: {
+      output: isSsrBuild ? {} : {
         // Manual code splitting — keeps vendor libs separate for better caching
         // Must be a function in Vite 8 / Rolldown
         manualChunks(id) {
@@ -55,4 +55,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom', 'framer-motion'],
   },
-})
+}))

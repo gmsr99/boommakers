@@ -4,15 +4,111 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="BoomMakers, processos mais leves, equipas mais disponíveis." />
-    <meta property="og:title" content="BoomMakers, processos mais leves" />
-    <meta property="og:description" content="Desenhamos e montamos processos para equipas que querem menos operação manual." />
-    <title>BoomMakers, processos mais leves</title>
+
+    <!-- Primary SEO -->
+    <title>BoomMakers — Sites, Automação e Apps para PMEs Portuguesas</title>
+    <meta name="description" content="BoomMakers é o parceiro digital de clínicas e PMEs portuguesas. Criamos sites profissionais, automação de processos e apps à medida. Campanha: site com 50% desconto + manutenção incluída." />
+    <meta name="keywords" content="agência digital portugal, sites para empresas, automação de processos, apps à medida, sites para clínicas, PME digital, web design portugal, desenvolvimento web portugal" />
+    <meta name="author" content="BoomMakers" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://boommakers.pt/" />
+
+    <!-- Geo -->
+    <meta name="geo.region" content="PT" />
+    <meta name="geo.country" content="Portugal" />
+    <meta name="language" content="Portuguese" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://boommakers.pt/" />
+    <meta property="og:title" content="BoomMakers — Sites, Automação e Apps para PMEs Portuguesas" />
+    <meta property="og:description" content="O parceiro digital de clínicas e PMEs portuguesas. Sites profissionais com 50% desconto, automação de processos e apps à medida." />
+    <meta property="og:image" content="https://boommakers.pt/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:site_name" content="BoomMakers" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BoomMakers — Sites, Automação e Apps para PMEs Portuguesas" />
+    <meta name="twitter:description" content="O parceiro digital de clínicas e PMEs portuguesas. Sites profissionais com 50% desconto, automação de processos e apps à medida." />
+    <meta name="twitter:image" content="https://boommakers.pt/og-image.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://boommakers.pt/#website",
+          "name": "BoomMakers",
+          "url": "https://boommakers.pt",
+          "description": "Agência digital portuguesa especializada em sites, automação de processos e apps à medida para PMEs e clínicas.",
+          "inLanguage": "pt-PT"
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://boommakers.pt/#organization",
+          "name": "BoomMakers",
+          "url": "https://boommakers.pt",
+          "email": "ola@boommakers.pt",
+          "description": "Criamos sites profissionais, automação de processos e apps à medida para PMEs e clínicas portuguesas. Equipa jovem e dinâmica com foco em resultados reais.",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Portugal"
+          },
+          "knowsLanguage": "pt-PT",
+          "serviceType": [
+            "Web Design",
+            "Desenvolvimento Web",
+            "Automação de Processos",
+            "Desenvolvimento de Apps",
+            "E-commerce",
+            "SEO"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços BoomMakers",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites & Lojas Online",
+                  "description": "Criação de sites institucionais, landing pages e lojas online com design moderno e otimização SEO."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Automação de Processos",
+                  "description": "Automação de agendamentos, follow-ups, lembretes e fluxos de trabalho para reduzir trabalho manual."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Apps à Medida",
+                  "description": "Desenvolvimento de apps web e mobile personalizadas para as necessidades da sua empresa."
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><!--app-html--></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
