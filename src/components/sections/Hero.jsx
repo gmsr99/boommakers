@@ -95,7 +95,7 @@ export default function Hero() {
           <div>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.6 }}>
               <div className="tag-orange mb-6">
-                Equipa jovem · Web · Automação · Apps
+                Web · Automação · Apps
               </div>
             </motion.div>
 

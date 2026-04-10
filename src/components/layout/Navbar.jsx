@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Logo from '../ui/Logo'
 
 const links = [
   { label: 'Serviços', href: '#servicos' },
@@ -38,9 +39,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({top:0,behavior:'smooth'}) }}
              className="flex items-center gap-2 group select-none" data-hover>
-            <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center font-black text-dark text-sm shadow-orange transition-shadow group-hover:shadow-orange-lg">
-              B
-            </div>
+            <Logo size={34} className="transition-transform group-hover:scale-105 duration-200" />
             <span className="font-black text-xl tracking-tight">
               <span className="text-white">BOOM</span>
               <span className="text-gray-400">MAKERS</span>

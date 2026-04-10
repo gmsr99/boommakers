@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import Logo from '../ui/Logo'
 
 const links = {
   'Produto': ['Serviços', 'Portfólio', 'Como funciona', 'Preços', 'ROI Calculator'],
@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center font-black text-dark text-sm">B</div>
+              <Logo size={32} />
               <span className="font-black text-xl"><span className="text-white">BOOM</span><span className="text-gray-400">MAKERS</span></span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">

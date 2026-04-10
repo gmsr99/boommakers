@@ -24,7 +24,7 @@ export default function Campanha() {
                 🔥 Campanha de Angariação
               </span>
               <span className="text-xs text-gray-500 font-mono uppercase tracking-widest">
-                Vagas limitadas · Válida até preenchimento
+                Vagas limitadas · Válida até 15 de maio
               </span>
             </div>
 
