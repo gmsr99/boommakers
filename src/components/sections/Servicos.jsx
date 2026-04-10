@@ -77,7 +77,7 @@ export default function Servicos() {
             <span className="gradient-text">fazer crescer o teu negócio</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-xl mx-auto">
-            Da presença online à automação de processos — uma equipa, todas as frentes digitais.
+            Da presença online à automação de processos, uma equipa para todas as frentes digitais.
           </p>
         </ScrollReveal>
 

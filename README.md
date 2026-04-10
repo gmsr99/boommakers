@@ -132,6 +132,6 @@ Funciona também em Netlify, Cloudflare Pages — qualquer plataforma que sirva 
 
 | Papel | Pessoa |
 |---|---|
-| Tech Lead | Gil Ribeiro — ribeiro.gil4@gmail.com |
+| Tech Lead | Gil Ribeiro, ola@boommakers.pt |
 | Criativo | Elton Malta |
 | Director | Claude (BoomMakers AI Director) |

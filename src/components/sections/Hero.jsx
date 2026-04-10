@@ -159,7 +159,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Right — service cards */}
+          {/* Right - service cards */}
           <motion.div
             initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5, duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
@@ -190,7 +190,7 @@ export default function Hero() {
               className="mt-2 p-4 rounded-xl border border-accent/20 bg-accent/5 flex items-center gap-3"
             >
               <div className="w-2 h-2 rounded-full bg-accent animate-pulse shrink-0" />
-              <span className="text-sm text-accent font-semibold">Campanha ativa — 50% desconto em sites</span>
+              <span className="text-sm text-accent font-semibold">Campanha ativa: 50% desconto em sites</span>
               <button onClick={() => scrollTo('#campanha')} className="ml-auto text-xs text-accent/70 hover:text-accent transition-colors cursor-none" data-hover>
                 Ver →
               </button>

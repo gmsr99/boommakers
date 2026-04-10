@@ -36,7 +36,7 @@ export default function Campanha() {
                   <span className="gradient-text">50% de desconto</span>
                 </h2>
                 <p className="text-gray-300 text-lg mb-8">
-                  Para empresas sem site ou com site desatualizado. A tua presença online merece melhor — e nós ajudamos a chegar lá, com manutenção e acompanhamento profissional incluídos.
+                  Para empresas sem site ou com site desatualizado. A tua presença online merece melhor, e nós ajudamos a chegar lá, com manutenção e acompanhamento profissional incluídos.
                 </p>
 
                 <div className="space-y-4 mb-8">
@@ -65,23 +65,17 @@ export default function Campanha() {
                 </p>
               </div>
 
-              {/* Right — pricing visual */}
+              {/* Right - discount visual */}
               <div className="flex flex-col gap-4">
-                <div className="bg-dark-200 border border-border rounded-2xl p-6 text-center">
-                  <div className="text-xs font-mono text-gray-500 uppercase tracking-widest mb-3">Preço normal</div>
-                  <div className="text-3xl font-black text-gray-500 line-through mb-1">€1.200+</div>
-                  <div className="text-gray-600 text-sm">Site institucional completo</div>
-                </div>
-
-                <div className="bg-accent/10 border-2 border-accent/40 rounded-2xl p-6 text-center relative overflow-hidden shadow-orange">
+                <div className="bg-accent/10 border-2 border-accent/40 rounded-2xl p-8 text-center relative overflow-hidden shadow-orange">
                   <div className="absolute top-0 right-0 bg-accent text-dark text-xs font-black px-4 py-1.5 rounded-bl-xl">
                     CAMPANHA
                   </div>
-                  <div className="text-xs font-mono text-accent uppercase tracking-widest mb-3">Preço campanha</div>
-                  <div className="text-5xl font-black text-white mb-1">€600+</div>
-                  <div className="text-accent text-sm font-semibold">+ manutenção mensal incluída</div>
-                  <div className="mt-4 pt-4 border-t border-accent/20 text-xs text-gray-400">
-                    Poupas até 50% no investimento inicial
+                  <div className="text-xs font-mono text-accent uppercase tracking-widest mb-4">Desconto de lançamento</div>
+                  <div className="text-8xl font-black text-white mb-1 leading-none">50%</div>
+                  <div className="text-accent text-base font-semibold mt-2">no investimento inicial</div>
+                  <div className="mt-5 pt-5 border-t border-accent/20 text-sm text-gray-400">
+                    Orçamento adaptado ao teu projeto, sem surpresas.
                   </div>
                 </div>
 
@@ -92,6 +86,16 @@ export default function Campanha() {
                   <div>
                     <div className="text-white text-sm font-semibold">Acompanhamento mensal</div>
                     <div className="text-gray-500 text-xs mt-0.5">Manutenção, atualizações e suporte incluídos</div>
+                  </div>
+                </div>
+
+                <div className="bg-dark-200 border border-border rounded-xl p-4 flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center shrink-0">
+                    <span className="text-accent text-sm">📋</span>
+                  </div>
+                  <div>
+                    <div className="text-white text-sm font-semibold">Orçamento personalizado</div>
+                    <div className="text-gray-500 text-xs mt-0.5">Cada projeto tem o seu preço justo</div>
                   </div>
                 </div>
               </div>

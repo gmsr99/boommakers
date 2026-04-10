@@ -61,7 +61,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-xs">© 2026 BoomMakers. Todos os direitos reservados.</p>
-          <p className="text-gray-600 text-xs">Sites · Automação · Apps — para PMEs portuguesas.</p>
+          <p className="text-gray-600 text-xs">Sites · Automação · Apps para PMEs portuguesas.</p>
         </div>
       </div>
     </footer>

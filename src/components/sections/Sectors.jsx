@@ -16,8 +16,6 @@ const sectors = [
       'Sistema de loyalty e reativação de clientes inativos',
       'Reviews automáticas no Google após cada serviço',
     ],
-    price: '€200 – €550/mês',
-    setup: '€400 – €900 setup único',
     color: '#F5F5F5',
     roi: 'Retorno típico: 2.5× no 1.º mês',
   },
@@ -34,8 +32,6 @@ const sectors = [
       'Relatórios mensais de produtividade automáticos',
       'Follow-up pós-consulta e agendamento de revisão',
     ],
-    price: '€600 – €1.500/mês',
-    setup: '€800 – €2.000 setup único',
     color: '#D4D4D8',
     roi: 'Retorno típico: 3× no 1.º mês',
   },
@@ -52,8 +48,6 @@ const sectors = [
       'CRM com histórico completo de interacções',
       'Relatórios de conversão e pipeline automáticos',
     ],
-    price: '€700 – €1.500/mês',
-    setup: '€1.000 – €2.500 setup único',
     color: '#A3A3A3',
     roi: 'Retorno típico: 4× no 1.º mês',
   },
@@ -70,8 +64,6 @@ const sectors = [
       'Alertas de review negativa para resposta rápida',
       'Campanhas automáticas de reactivação de clientes',
     ],
-    price: '€400 – €900/mês',
-    setup: '€600 – €1.500 setup único',
     color: '#737373',
     roi: 'Retorno típico: 2× no 1.º mês',
   },
@@ -148,20 +140,21 @@ export default function Sectors() {
               </div>
             </div>
 
-            {/* Right: pricing + CTA */}
+            {/* Right: ROI + CTA */}
             <div className="lg:col-span-2 space-y-4">
-              {/* Price card */}
+              {/* ROI card */}
               <div className="card text-center">
-                <div className="text-xs font-mono text-gray-500 uppercase tracking-widest mb-2">Investimento</div>
-                <div className="text-3xl font-black mb-1" style={{ color: sector.color }}>{sector.price}</div>
-                <div className="text-gray-500 text-sm">{sector.setup}</div>
+                <div className="text-xs font-mono text-gray-500 uppercase tracking-widest mb-4">Impacto esperado</div>
 
-                <div className="my-4 h-px bg-border" />
-
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold"
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold mb-4"
                   style={{ background: `${sector.color}15`, color: sector.color, border: `1px solid ${sector.color}30` }}>
                   {sector.roi}
                 </div>
+
+                <div className="h-px bg-border my-3" />
+
+                <div className="text-xs text-gray-500">Orçamento adaptado a cada projeto.</div>
+                <div className="text-xs text-gray-600 mt-1">Sem custos fixos escondidos.</div>
               </div>
 
               {/* USPs */}
