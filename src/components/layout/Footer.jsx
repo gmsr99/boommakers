@@ -1,16 +1,17 @@
 import { motion } from 'framer-motion'
 
 const links = {
-  'Produto': ['Como funciona', 'Setores', 'Preços', 'ROI Calculator'],
-  'Empresa': ['Sobre nós', 'Contacto', 'Blog'],
+  'Produto': ['Serviços', 'Portfólio', 'Como funciona', 'Preços', 'ROI Calculator'],
+  'Empresa': ['Contacto'],
   'Legal': ['Privacidade', 'Termos'],
 }
 
 export default function Footer() {
   const scrollTo = (href) => {
     const map = {
+      'Serviços': '#servicos',
+      'Portfólio': '#portfolio',
       'Como funciona': '#como-funciona',
-      'Setores': '#setores',
       'Preços': '#precos',
       'ROI Calculator': '#roi',
       'Contacto': '#contacto',
@@ -28,14 +29,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center font-black text-dark text-sm">B</div>
+              <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center font-black text-dark text-sm">B</div>
               <span className="font-black text-xl"><span className="text-white">BOOM</span><span className="text-gray-400">MAKERS</span></span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Desenhamos e montamos processos para equipas que já não querem perder tempo com trabalho que podia estar resolvido.
+              Sites, automação e apps para clínicas e PMEs portuguesas. A tua equipa digital de confiança.
             </p>
-            <a href="mailto:ribeiro.gil4@gmail.com" className="text-gray-400 text-sm hover:text-white transition-colors mt-1 block">
-              ribeiro.gil4@gmail.com
+            <a href="mailto:ola@boommakers.pt" className="text-gray-400 text-sm hover:text-accent transition-colors mt-3 block">
+              ola@boommakers.pt
             </a>
           </div>
 
@@ -60,7 +61,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-xs">© 2026 BoomMakers. Todos os direitos reservados.</p>
-          <p className="text-gray-600 text-xs">Menos remendos. Processos mais arrumados.</p>
+          <p className="text-gray-600 text-xs">Sites · Automação · Apps — para PMEs portuguesas.</p>
         </div>
       </div>
     </footer>

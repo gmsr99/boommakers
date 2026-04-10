@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import ScrollReveal from '../ui/ScrollReveal'
 import { submitLead } from '../../lib/supabase'
 
-const sectors = ['Barbearia', 'Clínica / Saúde', 'Imobiliária', 'Restauração / Turismo', 'Outro']
+const sectors = ['Sites / Web', 'Automação de Processos', 'App à Medida', 'Clínica / Saúde', 'Barbearia', 'Imobiliária', 'Restauração / Turismo', 'Outro']
 const pains = [
   'Agendamentos manuais / WhatsApp',
   'Muitas faltas sem aviso',
@@ -55,7 +55,7 @@ export default function Contact() {
     const result = await submitLead(data)
     setSubmitting(false)
     if (result.success) setDone(true)
-    else setError('Erro ao enviar. Tenta novamente ou envia email para ribeiro.gil4@gmail.com')
+    else setError('Erro ao enviar. Tenta novamente ou envia email para ola@boommakers.pt')
   }
 
   const ProgressBar = () => (
@@ -84,7 +84,7 @@ export default function Contact() {
               Vamos responder em menos de 24 horas para perceber o contexto e combinar o próximo passo contigo.
             </p>
             <div className="inline-flex items-center gap-2 px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white font-semibold">
-              ribeiro.gil4@gmail.com
+              ola@boommakers.pt
             </div>
           </motion.div>
         </div>
@@ -104,10 +104,10 @@ export default function Contact() {
 
           {/* Left, text */}
           <ScrollReveal>
-            <div className="tag mb-6">Vamos conversar</div>
+            <div className="tag-orange mb-6">Vamos conversar</div>
             <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-              Conta-nos onde o teu processo{' '}
-              <span className="gradient-text">está a prender</span>
+              Vamos construir algo{' '}
+              <span className="gradient-text">juntos</span>
             </h2>
             <p className="text-gray-400 text-lg mb-8">
               Em 30 minutos conseguimos perceber o que está a consumir tempo, o que pode ser simplificado e se faz sentido avançar.
@@ -129,9 +129,9 @@ export default function Contact() {
 
             <div className="mt-8 pt-8 border-t border-border">
               <p className="text-gray-500 text-sm mb-3">Ou contacta directamente:</p>
-              <a href="mailto:ribeiro.gil4@gmail.com"
+              <a href="mailto:ola@boommakers.pt"
                 className="text-white hover:text-gray-300 transition-colors font-semibold block">
-                ribeiro.gil4@gmail.com
+                ola@boommakers.pt
               </a>
             </div>
           </ScrollReveal>

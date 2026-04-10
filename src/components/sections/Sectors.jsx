@@ -85,13 +85,13 @@ export default function Sectors() {
     <section className="py-24 bg-dark relative" id="setores">
       <div className="max-w-7xl mx-auto px-6">
         <ScrollReveal className="text-center mb-12">
-          <div className="tag mx-auto mb-4">Setores</div>
+          <div className="tag-orange mx-auto mb-4">Setores</div>
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
             Setores onde os processos{' '}
             <span className="gradient-text">pesam mais</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-xl mx-auto">
-            Trabalhamos melhor onde há repetição, follow-up e demasiadas tarefas a depender da equipa.
+            Clínicas, PMEs e negócios locais que querem crescer sem deixar os processos para trás.
           </p>
         </ScrollReveal>
 

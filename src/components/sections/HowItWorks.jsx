@@ -46,7 +46,7 @@ function StepCard({ step, index }) {
         <motion.div
           initial={{ scaleX: 0 }} animate={inView ? { scaleX: 1 } : {}}
           transition={{ duration: 0.8, delay: index * 0.15 + 0.4, ease: 'easeInOut' }}
-          className="absolute top-8 w-full h-px bg-gradient-to-r from-white/20 to-border origin-left
+          className="absolute top-8 w-full h-px bg-gradient-to-r from-accent/30 to-border origin-left
             hidden lg:block z-0" style={{ width: 'calc(100% - 64px)', left: '50%', marginLeft: '32px' }}
         />
       )}
@@ -54,7 +54,7 @@ function StepCard({ step, index }) {
       <div className="relative z-10 gradient-border transition-all duration-300 group-hover:shadow-orange p-5 h-full">
         {/* Step number */}
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center font-mono font-bold text-dark text-sm shadow-orange">
+          <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center font-mono font-bold text-dark text-sm shadow-orange">
             {step.n}
           </div>
           <div className="text-xs font-mono uppercase tracking-[0.2em] text-gray-500">Passo</div>
@@ -106,7 +106,7 @@ export default function HowItWorks() {
             'Acompanhamento claro e resposta rápida',
           ].map(text => (
             <div key={text} className="flex items-center gap-3 bg-dark-200 border border-border rounded-xl px-5 py-4">
-              <span className="w-2 h-2 rounded-full bg-white shrink-0" />
+              <span className="w-2 h-2 rounded-full bg-accent shrink-0" />
               <span className="text-gray-300 text-sm font-medium">{text}</span>
             </div>
           ))}
