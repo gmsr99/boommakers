@@ -35,8 +35,8 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Sites, automação e apps para clínicas e PMEs portuguesas. A tua equipa digital de confiança.
             </p>
-            <a href="mailto:ola@boommakers.pt" className="text-gray-400 text-sm hover:text-accent transition-colors mt-3 block">
-              ola@boommakers.pt
+            <a href="mailto:geral@boommakers.pt" className="text-gray-400 text-sm hover:text-accent transition-colors mt-3 block">
+              geral@boommakers.pt
             </a>
           </div>
 

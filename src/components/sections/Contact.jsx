@@ -55,7 +55,7 @@ export default function Contact() {
     const result = await submitLead(data)
     setSubmitting(false)
     if (result.success) setDone(true)
-    else setError('Erro ao enviar. Tenta novamente ou envia email para ola@boommakers.pt')
+    else setError('Erro ao enviar. Tenta novamente ou envia email para geral@boommakers.pt')
   }
 
   const ProgressBar = () => (
@@ -84,7 +84,7 @@ export default function Contact() {
               Vamos responder em menos de 24 horas para perceber o contexto e combinar o próximo passo contigo.
             </p>
             <div className="inline-flex items-center gap-2 px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white font-semibold">
-              ola@boommakers.pt
+              geral@boommakers.pt
             </div>
           </motion.div>
         </div>
@@ -129,9 +129,9 @@ export default function Contact() {
 
             <div className="mt-8 pt-8 border-t border-border">
               <p className="text-gray-500 text-sm mb-3">Ou contacta directamente:</p>
-              <a href="mailto:ola@boommakers.pt"
+              <a href="mailto:geral@boommakers.pt"
                 className="text-white hover:text-gray-300 transition-colors font-semibold block">
-                ola@boommakers.pt
+                geral@boommakers.pt
               </a>
             </div>
           </ScrollReveal>

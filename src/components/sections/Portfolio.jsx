@@ -6,8 +6,8 @@ const projects = [
   {
     id: 'golden-move',
     name: 'Golden Move',
-    desc: 'Plataforma de fitness, bem-estar e acompanhamento personalizado',
-    type: 'Website',
+    desc: 'Plataforma de apoio a imigrantes em Portugal, com orientação legal, habitacional e integração cultural num só lugar.',
+    type: 'App',
     typeColor: '#6366F1',
     image: '/Clientes/Golden Move/PC1.png',
     logo: '/Clientes/Golden Move/Logo/Logo_GoldenMove_Transparente_V1-03.png',
@@ -16,7 +16,7 @@ const projects = [
   {
     id: 'empatia',
     name: 'EmpatIA',
-    desc: 'Aplicação de inteligência emocional e suporte psicológico digital',
+    desc: 'Plataforma de acompanhamento a idosos em isolamento, com monitorização contínua e conversação assistida por inteligência artificial própria.',
     type: 'App',
     typeColor: '#F97316',
     image: '/Clientes/EmpatIA/PC1.png',
@@ -26,8 +26,8 @@ const projects = [
   {
     id: 'nexseed',
     name: 'NexSeed',
-    desc: 'Plataforma de investimento em startups e inovação tecnológica',
-    type: 'Website',
+    desc: 'Plataforma de ensino doméstico que apoia famílias na educação dos filhos, com conteúdos estruturados e acompanhamento de progresso.',
+    type: 'Plataforma',
     typeColor: '#6366F1',
     image: '/Clientes/NexSeed/PC1.png',
     logo: '/Clientes/NexSeed/Logo/logo_nexseed.png',
@@ -35,8 +35,8 @@ const projects = [
   },
   {
     id: 'bpm-rap',
-    name: 'BPM RAP Nova Escola',
-    desc: 'Gestão escolar, acompanhamento académico e comunicação com encarregados',
+    name: 'RAP Nova Escola',
+    desc: 'App de gestão interna para o Projeto RAP Nova Escola, centralizando operações, comunicação e acompanhamento de participantes.',
     type: 'App',
     typeColor: '#F97316',
     image: '/Clientes/App BPM RAP Nova Escola/PC1.png',
@@ -46,8 +46,8 @@ const projects = [
   {
     id: 'sr-lucas',
     name: 'Bordados do Sr. Lucas',
-    desc: 'Loja online de bordados artesanais e personalizados',
-    type: 'Website',
+    desc: 'App que transforma fotografias em padrões de bordado, permitindo criar peças personalizadas a partir de qualquer imagem.',
+    type: 'App',
     typeColor: '#6366F1',
     image: '/Clientes/Bordados do Sr. Lucas/mobile1.png',
     logo: '/Clientes/Bordados do Sr. Lucas/Logo/Sr.Lucas_Logo (1).png',
